@@ -1,0 +1,9 @@
+[project]
+name = "dynabuf"
+version = "0.1.0"
+description = "Library to dynamically create, update, and use protobuf messages"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "protobuf>=5.27",
+]
