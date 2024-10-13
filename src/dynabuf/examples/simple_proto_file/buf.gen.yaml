@@ -1,0 +1,9 @@
+version: v2
+plugins:
+  # The version (eg, python:v28.2) is the version of the Buf plugin to use.
+  # Details on a particular version can be found at:
+  # https://buf.build/protocolbuffers/python?version=<version>
+  # The version aligns with the MINOR:PATCH version of the Python package itself.
+  # Eg, plugin version v28.2 corresponds to Python protobuf package version 5.28.2.
+  - remote: buf.build/protocolbuffers/python:v28.2
+    out: build/addressbook
